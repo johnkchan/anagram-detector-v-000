@@ -6,11 +6,13 @@ class Anagram
   end
   
   def match(keyword)
-    @string.split(",").collect do |word|
+    output = []
+    @string.split(",").each do |word|
       if keyword == word
-        word
+        output << word
       end
     end
+    output
   end
   
 end
