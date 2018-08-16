@@ -1,13 +1,14 @@
 # Your code goes here!
 class Anagram
   
-  def initialize()
-    
-    
+  def initialize(string)
+    @string = string
   end
   
-  def match()
-    
+  def match(keyword)
+    @string.split(",").each do |word|
+      if 
+    end
   end
   
 end
