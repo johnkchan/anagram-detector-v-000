@@ -2,13 +2,13 @@
 class Anagram
   
   def initialize(keyword)
-    @keyword = word
+    @keyword = keyword
   end
   
-  def match(keyword)
+  def match(array)
     output = []
-    @string.split(",").each do |word|
-      if keyword.split("").sort == word.split("").sort
+    array.split(",").each do |word|
+      if keyword.split("").sort == keyword.split("").sort
         output << word
       end
     end
